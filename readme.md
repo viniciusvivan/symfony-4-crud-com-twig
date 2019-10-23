@@ -1,6 +1,6 @@
 ## Primeiros passos com Symfony
 
-####Instalação
+#### Instalação
 Instalar apenas o necessário para funcionar
 
 `composer create-project symfony/skeleton pasta-destino`
@@ -9,7 +9,7 @@ Instalação completa
 
 `composer create-project symfony/website-skeleton pasta-destino`
 
-####Chamar o maker para gerar arquivos
+#### Chamar o maker para gerar arquivos
 Dentro da pasta onde o symfony foi instalado o 
 maker pode ser chamado pelo comando
 
@@ -36,7 +36,7 @@ seguintes comandos:
 `:validator`              
 `:voter`       
 
-####Atualizar mudanças no banco de dados - Entidades Mapeadas com Doctrine
+#### Atualizar mudanças no banco de dados - Entidades Mapeadas com Doctrine
 Comando para gerar as migrations (ainda não atualiza o BD)
 Apenas gera a difernça entre como o banco estava e
 como deveria estar agora.
